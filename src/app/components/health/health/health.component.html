@@ -1,0 +1,29 @@
+<!-- <div class="table-responsive tableBlock">
+    <button (click)="getPatientHealthInfo()">Get Patient Health Info</button>
+    <div class="card">
+        <div class="title">Title</div>
+        <div class="description">
+          <ng-content></ng-content>
+        </div>
+     </div>
+    
+</div> -->
+<div class="card-wrapper">
+
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>Health Status</mat-card-title>
+      <mat-card-subtitle >{{healthData.data.HealthStatus}}
+        Learn Web Development with Easy Tutorials
+      </mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+</div>
